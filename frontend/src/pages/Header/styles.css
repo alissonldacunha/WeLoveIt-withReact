@@ -1,3 +1,5 @@
+@import '../../colors.css';
+
 .container_header {
   background-attachment: fixed;
   background-image: url('../../assets/star-wars-cover2.jpg');
@@ -38,20 +40,20 @@
 
 .profile {
   display: flex;
-  color: #fff;
+  color: var(--white);
   font-size: 13px;
   font-weight: bold;
 }
 
 .list_navegation {
-  color: white;
+  color: var(--white);
   list-style: none;
   display: flex;
   padding: 0;
 }
 
 .list_navegation > a {
-  color: #fff;
+  color: var(--white);
   font-size: 13px;
   font-weight: bold;
   text-decoration: none;
@@ -61,7 +63,7 @@
 }
 
 .infos-title {
-  color: #fff;
+  color: var(--white);
   font-weight: bold;
   line-height: 1em;
   margin: 0;
@@ -82,7 +84,7 @@
 }
 
 .infos-genero > a {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   margin-right: 15px;
   text-transform: uppercase;
@@ -92,10 +94,10 @@
 .button-trailer {
   display: inline-block;
   padding: 15px 50px;
-  color: #000;
+  color: var(--white);
   font-size: 1.5em;
   text-decoration: none;
-  background-color: #e4bb23;
+  background-color: var(--red);
   border-radius: 40px;
   position: relative;
   transition: all 0.2s ease-in-out;
@@ -103,13 +105,13 @@
 
 .infos-lancamento { 
   font-size: 1.4em;
-  color: #fff;
+  color: var(--white);
 }
 
 .infos-lancamento :last-child{
-  color: #e4bb23;
+  color: var(--red);
 }
 
 .infos-lancamento :last-child{
-  color: #e4bb23;
+  color: var(--red);
 }
