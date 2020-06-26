@@ -88,3 +88,28 @@
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
 }
+
+.button-trailer {
+  display: inline-block;
+  padding: 15px 50px;
+  color: #000;
+  font-size: 1.5em;
+  text-decoration: none;
+  background-color: #e4bb23;
+  border-radius: 40px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.infos-lancamento { 
+  font-size: 1.4em;
+  color: #fff;
+}
+
+.infos-lancamento :last-child{
+  color: #e4bb23;
+}
+
+.infos-lancamento :last-child{
+  color: #e4bb23;
+}
