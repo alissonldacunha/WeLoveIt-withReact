@@ -8,12 +8,11 @@ module.exports = {
 
     const movies = await connection('movies')
       .join('users', 'users.id', '=', 'movies.user_id')
-      .limit(10)
-      .offset((page - 1) * 10)
+      .limit(50)
+      .offset((page - 1) * 50)
       .select([
         'movies.*',
         'users.name',
-        'users.email',
       ]);
 
     response.header('X-Total-Count', count['count(*)']);
