@@ -1,6 +1,8 @@
 import React from 'react';
 
-import Header from './Header';
+import './global.css';
+
+import Header from './pages/Header/';
 
 function App() {
   return (
