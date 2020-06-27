@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './global.css';
 
-import Header from './pages/Header/';
+import Header from './components/Header';
+import MovieList from './components/Movies';
 
-function App() {
-  return (
+const App = () => (
+  <div className="App">
     <Header />
-  );
-}
+    <MovieList />
+  </div>
+);
 
 export default App;
