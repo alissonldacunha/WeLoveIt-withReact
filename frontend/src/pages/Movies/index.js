@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import api, { urlImage } from '../../services/api';
+import { FiPlay, FiHeart } from 'react-icons/fi';
+
+import './styles.css';
 
 export default class MovieList extends Component {
   state = {
@@ -17,17 +20,20 @@ export default class MovieList extends Component {
   };
 
   render() {
+    const { movies } = this.state
+
     return (
       <div className="container_films">
-        {this.state.movies.map(movies => (
-          <ul className="films-list" key={movies.id}>
-            <li className="films-list-item">
+        <ul className="films-list" >
+          {movies.map(movies => (
+            <li className="films-list-item" key={movies.id}>
               <figure className="poster-film">
                 <img src={urlImage + '/' + movies.image} alt="" />
                 <div className="film-info">
                   <h3>{movies.title}</h3>
-                  <a href="#" className="film_link">
-                    <i className="fa fa-play" aria-hidden="true"></i>
+                  <a className="film_link">
+                    {/* <i className="fa fa-play" aria-hidden="true"></i> */}
+                    <FiPlay />
                   </a>
                 </div>
               </figure>
@@ -37,15 +43,18 @@ export default class MovieList extends Component {
                   {movies.title}
                 </h3>
                 <p className="genero">
-                  <a href="#" className="film_link">{movies.categories}</a>
+                  <span className="film_link">{movies.categories}</span>
                 </p>
                 <p className="filme-nota">
-                  <i className="fa fa-heart" aria-hidden="true"></i> {movies.note}
+                  <a href="">
+                    <FiHeart />
+                  </a>
+                  <span> {movies.note} </span>
                 </p>
               </div>
             </li>
-          </ul>
-        ))}
+          ))}
+        </ul>
       </div>
     );
   }
