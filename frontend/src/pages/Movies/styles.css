@@ -1,2 +1,18 @@
 @import '../../colors.css';
 
+.container_films{
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: var(--light);
+}
+
+.films-list{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px; 0;
+}

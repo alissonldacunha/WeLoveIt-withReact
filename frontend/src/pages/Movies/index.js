@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import api from '../../services/api';
+import api, { urlImage } from '../../services/api';
 
 export default class MovieList extends Component {
   state = {
@@ -23,7 +23,7 @@ export default class MovieList extends Component {
           <ul className="films-list" key={movies.id}>
             <li className="films-list-item">
               <figure className="poster-film">
-                <img src={movies.image} alt="" />
+                <img src={urlImage + '/' + movies.image} alt="" />
                 <div className="film-info">
                   <h3>{movies.title}</h3>
                   <a href="#" className="film_link">
@@ -40,7 +40,7 @@ export default class MovieList extends Component {
                   <a href="#" className="film_link">{movies.categories}</a>
                 </p>
                 <p className="filme-nota">
-                  <i className="" aria-hidden="true"></i> {movies.note}
+                  <i className="fa fa-heart" aria-hidden="true"></i> {movies.note}
                 </p>
               </div>
             </li>
