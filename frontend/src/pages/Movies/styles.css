@@ -109,16 +109,14 @@
 
 .film_link{
   color: var(--red);
+  width:50 ;
+  height: 57;
   font-size: 1.2em;
   transition: all 0.2s;
   text-decoration: none;
-}
-
-.film_link > i{
-  color: var(--white);
-  font-size: 5em;
   transition: all 0.2s ease-in-out;
 }
+
 
 .title-film{
   font-size: 1.3em;
