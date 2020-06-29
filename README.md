@@ -1,5 +1,5 @@
 # WeLoveIt-withReact
 
 <h1 align="center">
-    <img alt="Logo" title="#logo" src=".github/logo.png" width="200px" />
+    <img alt="Logo" src=".github/weloveit-logo.svg" width="200px" />
 </h1>
