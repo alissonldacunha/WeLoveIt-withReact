@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="33.313" viewBox="0 0 92 33.313">
+  <g id="Grupo_8" data-name="Grupo 8" transform="translate(-6 -6)">
+    <path id="heart_1_" data-name="heart (1)" d="M31.507,5.5a8.541,8.541,0,0,0-12.082,0L17.779,7.147,16.133,5.5A8.543,8.543,0,0,0,4.051,17.583L5.7,19.229,17.779,31.311,29.861,19.229l1.646-1.646a8.541,8.541,0,0,0,0-12.082Z" transform="translate(42.951 5.502)" fill="none" stroke="#fe004e" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <text id="we" transform="translate(6 30)" fill="#777" font-size="22" font-family="ArialRoundedMTBold, Arial Rounded MT Bold"><tspan x="0" y="0">we</tspan></text>
+    <text id="it" transform="translate(84 31)" fill="#777" font-size="21" font-family="ArialRoundedMTBold, Arial Rounded MT Bold"><tspan x="0" y="0">it</tspan></text>
+  </g>
+</svg>
