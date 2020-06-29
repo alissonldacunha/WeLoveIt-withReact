@@ -15,9 +15,9 @@ const Header = () => (
         <a href=""><li>Em cartaz</li></a>
       </ul>
       <div className="profile">
-        <p>
+        {/* <p>
           Nome do felizardo
-          </p>
+          </p> */}
       </div>
     </nav>
     <div className="container_infos">
